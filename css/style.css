@@ -9,6 +9,8 @@ body {
   background-color: #ffffff;
   color: var(--main-color-text);
   font-style: normal;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -148,6 +150,7 @@ nav .block-contact {
 /* список навигации  в header*/
 .site-nav {
   margin-left: 90px;
+  align-items: center;
 }
 
 .site-nav li:nth-child(n + 2) {
@@ -363,6 +366,7 @@ nav .block-contact {
 }
 .title-blok {
   padding: 30px 30px;
+  background-color: #ffffff;
 }
 
 li .profession {
@@ -552,6 +556,7 @@ li .street {
 }
 .blok-join {
   margin-left: 70px;
+  padding-top: 12px;
 }
 .join-item:nth-child(-n + 4) {
   margin-right: 10px;
