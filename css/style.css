@@ -99,6 +99,7 @@ nav .block-contact {
 .adress-tel,
 .adress-mail {
   display: block;
+  margin-right: 10px;
   width: 16px;
   height: 12px;
   fill: #757575;
@@ -340,6 +341,8 @@ nav .block-contact {
   padding-top: 94px;
   padding-bottom: 112px;
   background-color: #f5f4fa;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .team-item {
@@ -624,7 +627,15 @@ li .street {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  cursor: pointer;
 }
+
+.portfolio-list li:focus,
+.portfolio-list li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-list li:nth-child(3n) {
   margin-right: 0;
 }
