@@ -256,10 +256,10 @@ nav .block-contact {
 }
 
 /* Преимущества feature*/
-.feature-icon {
+/* .feature-icon {
   display: inline-flex;
-}
-.box-feature {
+} */
+/* .box-feature {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,9 +272,34 @@ nav .block-contact {
   display: block;
   width: 70px;
   height: 70px;
-  fill: #212121;
+  fill: #212121; 
+}  */
+
+/* новые для иконок в преимуществе */
+.feature-item::before {
+  display: block;
+  content: ' ';
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feature-item.icon-antenna::before {
+  background-image: url(../img/antenna.png);
+}
+.feature-item.icon-clock::before {
+  background-image: url(../img/clock.png);
+}
+.feature-item.icon-diagram::before {
+  background-image: url(../img/diagram.png);
 }
 
+.feature-item.icon-astronaut::before {
+  background-image: url(../img/astronaut.png);
+}
 .feature {
   padding-bottom: 94px;
 }
