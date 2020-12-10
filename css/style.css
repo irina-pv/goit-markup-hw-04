@@ -417,9 +417,7 @@ li .profession {
 }
 
 /* Постоянные клиеты */
-.client {
-  background-color: tomato;
-}
+
 .list-client {
   justify-content: space-between;
   align-items: center;
